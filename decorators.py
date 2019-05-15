@@ -15,3 +15,13 @@ def func_need_decorator():
     print('i need decorator')
 
 func_need_decorator()
+
+
+# global/locals: Accessing global/local variables from dictionary
+
+def localFunction():
+    varLocal = 10;
+    print(locals())
+    print(globals())
+
+localFunction();
